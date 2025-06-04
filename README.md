@@ -113,7 +113,10 @@ pip install --upgrade accelerate transformers diffusers huggingface_hub
 -   Copy an example configuration file from `config/examples` to the `config` folder and rename it (e.g., `my_jarvis_training.yml`).
 -   Edit the configuration file, following the comments.
 -   Change `folder_path: "/path/to/images/folder"` to your dataset path, for example: `folder_path: "/workspace/ai-toolkit/your-dataset"`.
--   Run the training script: `python run.py config/my_jarvis_training.yml`.
+-   Run the training script:
+    ```bash
+    python run.py config/my_jarvis_training.yml
+    ```
 -   Once training is completed, you can directly export your model to Hugging Face using the script: `python scripts/hf_model.py`.
 
 ## Dataset Preparation
