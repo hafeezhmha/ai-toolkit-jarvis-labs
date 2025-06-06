@@ -71,7 +71,7 @@ huggingface-cli login # Provide a 'write' token to publish your LoRA at the end
 python flux_train_ui.py
 ```
 
-This will launch a UI that allows you to upload your images, caption them, train your LoRA, and publish it. This is recommended if you have not yet captioned your images.
+This will launch a UI that allows you to upload your images, caption them using Florence, train your LoRA, and publish it. This is recommended if you have not yet captioned your images.
 
 ## Training on Jarvis Labs
 
